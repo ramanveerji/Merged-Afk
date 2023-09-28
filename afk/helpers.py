@@ -65,20 +65,7 @@ asyncio.create_task(auto_clean())
 
 
 RANDOM = [
-    "https://graph.org/file/8b24e062af57ae509f46c.png",
-    "https://graph.org/file/77c3d8f59bdba96aeb99c.png",
-    "https://graph.org/file/9b5d2fc8956dc43707554.png",
-    "https://graph.org/file/9f3e2925449592bb47e10.png",
-    "https://graph.org/file/d44a746f29f1d648fff38.png",
-    "https://graph.org/file/4541c9ae3930c61e09573.png",
-    "https://graph.org/file/42b8b7fe024cb90c988da.png",
-    "https://graph.org/file/0c169b9671a86f539f74a.png",
-    "https://graph.org/file/d9c4498396ab4ec04f506.png",
-    "https://graph.org/file/70755fd35c8930cfb17a6.png",
-    "https://graph.org/file/513085d103b3aab965f13.png",
-    "https://graph.org/file/98b69b39d38616871826b.png",
-    "https://graph.org/file/556fecac5458b0cbdf11b.png",
-    "https://graph.org/file/b810f7f8a238f58b3c0b2.png"
+    "https://graph.org/file/63bd0fb56bc8988d896b6.png"
 ]
 
 
