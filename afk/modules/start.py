@@ -27,7 +27,7 @@ async def on_start(_, message: Message):
         ]
     )
     image = random.choice(RANDOM)
-    send = await message.reply_photo(image, caption=f"Hello ! I am {botname}.\n\nCheck Help Section /help for more information. \n\nBrought to you by :- @rs_bro", reply_markup=upl)
+    send = await message.reply_photo(image, caption=f"Hello, I am {botname}.\n\nCheck Help Section /help for more information. \n\nBrought to you by :- @rs_bro", reply_markup=upl)
     await put_cleanmode(message.chat.id, send.message_id)
     
 @app.on_message(filters.command(["help"]) & filters.group & ~filters.edited)
@@ -65,7 +65,7 @@ async def on_private_start(_, message: Message):
             ]
         )
         image = random.choice(RANDOM)
-        await message.reply_photo(image, caption=f"Hello ! I am {botname}.\n\nCheck Help Section /help for more information. \n\nBrought to you by :- @rs_bro", reply_markup=upl)
+        await message.reply_photo(image, caption=f"Hello, I am {botname}.\n\nCheck Help Section /help for more information. \n\nBrought to you by :- @rs_bro", reply_markup=upl)
 
 @app.on_message(filters.command(["help"]) & filters.private & ~filters.edited)
 async def on_private_help(_, message: Message):
