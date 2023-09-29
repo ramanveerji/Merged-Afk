@@ -22,7 +22,7 @@ async def total_users(_, message: Message):
 @app.on_message(filters.command("broadcast") & filters.user(SUDOERS))
 async def broadcast(_, message):
     if message.reply_to_message:
-        x = message.reply_to_message.message_id
+        x = message.reply_to_message.text
         y = message.chat.id
     else:
         if len(message.command) < 2:
@@ -37,10 +37,8 @@ async def broadcast(_, message):
         chats.append(int(chat["chat_id"]))
     for i in chats:
         try:
-            await app.forward_messages(
-                i, y, x
-            ) if message.reply_to_message else await app.send_message(
-                i, text=query
+            await app.send_message(
+                i, text=x if message.reply_to_message else query
             )
             sent += 1
         except FloodWait as e:
