@@ -1,10 +1,10 @@
 asyncio
 dnspython
 motor
-https://github.com/KurimuzonAkuma/pyrogram/archive/v1.4.0.zip
+https://github.com/KurimuzonAkuma/pyrogram/archive/v2.1.21.zip
 python-dotenv
 tgcrypto
-Flask==2.2.5
-gunicorn==20.1.0
+Flask
+gunicorn
 aiohttp
-pymongo[srv]==3.12.3
+pymongo[srv]
