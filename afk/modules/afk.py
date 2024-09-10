@@ -1,6 +1,6 @@
 import time
-from pyrogram import filters
-from pyrogram.types import Message
+from pyrogramv1 import filters
+from pyrogramv1.types import Message
 from afk import app, botusername
 from afk.database import add_afk, is_afk, remove_afk
 from afk.helpers import get_readable_time, put_cleanmode

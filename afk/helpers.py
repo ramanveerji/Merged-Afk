@@ -3,8 +3,8 @@ from typing import Union
 from datetime import datetime, timedelta
 from afk import cleanmode, app, botname
 from afk.database import is_cleanmode_on
-from pyrogram.errors import FloodWait
-from pyrogram.types import InlineKeyboardButton
+from pyrogramv1.errors import FloodWait
+from pyrogramv1.types import InlineKeyboardButton
 
 def get_readable_time(seconds: int) -> str:
     count = 0

@@ -1,9 +1,9 @@
 import time
 import random
-from pyrogram import filters
-from pyrogram.types import Message
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from pyrogram.errors import MessageNotModified
+from pyrogramv1 import filters
+from pyrogramv1.types import Message
+from pyrogramv1.types import InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogramv1.errors import MessageNotModified
 from afk import app, boot, botname, botusername
 from afk.database.cleanmode import cleanmode_off, cleanmode_on, is_cleanmode_on
 from afk.helpers import get_readable_time, put_cleanmode, settings_markup, RANDOM, HELP_TEXT

@@ -1,6 +1,6 @@
 import asyncio
 import importlib
-from pyrogram import idle
+from pyrogramv1 import idle
 from afk.modules import ALL_MODULES
 
 loop = asyncio.get_event_loop()

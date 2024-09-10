@@ -1,7 +1,7 @@
 import asyncio
-from pyrogram import filters
-from pyrogram.errors import FloodWait
-from pyrogram.types import Message
+from pyrogramv1 import filters
+from pyrogramv1.errors import FloodWait
+from pyrogramv1.types import Message
 from afk import SUDOERS, app
 from afk.database import get_afk_users, get_served_chats
 
