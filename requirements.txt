@@ -1,7 +1,7 @@
 asyncio
 dnspython
 motor
-https://github.com/MR-CODER-V2/pyrogram-v1.4.16
+pyrogramv1
 python-dotenv
 tgcrypto
 Flask==2.2.5
